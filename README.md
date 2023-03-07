@@ -1,2 +1,3 @@
-# java-course-projects
- All my projects realized from different Java courses.
+# Java Course Projects
+
+All my projects realized from different Java courses.
