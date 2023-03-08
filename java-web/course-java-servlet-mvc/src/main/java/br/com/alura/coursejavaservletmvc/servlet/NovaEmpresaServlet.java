@@ -1,7 +1,7 @@
-package br.com.alura.coursejavaservletmvc;
+package br.com.alura.coursejavaservletmvc.servlet;
 
-import br.com.alura.coursejavaservletmvc.model.Banco;
-import br.com.alura.coursejavaservletmvc.model.Empresa;
+import br.com.alura.coursejavaservletmvc.modelo.Banco;
+import br.com.alura.coursejavaservletmvc.modelo.Empresa;
 
 import java.io.IOException;
 import java.text.ParseException;

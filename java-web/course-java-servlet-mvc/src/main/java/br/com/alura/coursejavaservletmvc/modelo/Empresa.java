@@ -1,4 +1,4 @@
-package br.com.alura.coursejavaservletmvc.model;
+package br.com.alura.coursejavaservletmvc.modelo;
 
 import java.util.Date;
 
