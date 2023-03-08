@@ -1,4 +1,5 @@
-package br.com.alura.gerenciador.servlet;
+package br.com.alura.coursejavaservletmvc;
+
 
 import java.io.IOException;
 import java.io.PrintWriter;

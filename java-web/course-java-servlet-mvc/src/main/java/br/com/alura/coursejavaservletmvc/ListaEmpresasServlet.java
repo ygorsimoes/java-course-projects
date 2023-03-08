@@ -1,4 +1,7 @@
-package br.com.alura.gerenciador.servlet;
+package br.com.alura.coursejavaservletmvc;
+
+import br.com.alura.coursejavaservletmvc.model.Banco;
+import br.com.alura.coursejavaservletmvc.model.Empresa;
 
 import java.io.IOException;
 import java.util.List;
