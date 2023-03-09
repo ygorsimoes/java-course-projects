@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 
-<c:url value="/alteraEmpresa" var="linkEntrradaServlet"/>
+<c:url value="/entrada" var="linkEntradaServlet"/>
 
 <!DOCTYPE html>
 <html>
@@ -12,7 +12,10 @@
 </head>
 <body>
 
-	<form action="${linkEntrradaServlet }" method="post">
+	<c:import url="logout-parcial.jsp" />
+	
+
+	<form action="${linkEntradaServlet }" method="post">
 	
 		Nome: <input type="text" name="nome" value="${empresa.nome }" />
 		Data Abertura: <input type="text" name="data"  value="<fmt:formatDate value="${empresa.dataAbertura }" pattern="dd/MM/yyyy"/>" />
