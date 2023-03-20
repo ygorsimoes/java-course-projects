@@ -1,4 +1,4 @@
-package com.ygorsimoes.controller;
+package com.ygorsimoes.controller.greeting;
 
 import com.ygorsimoes.model.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;

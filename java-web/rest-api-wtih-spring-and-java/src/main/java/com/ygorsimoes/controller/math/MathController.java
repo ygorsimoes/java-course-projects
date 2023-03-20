@@ -1,14 +1,16 @@
-package com.ygorsimoes.controller;
+package com.ygorsimoes.controller.math;
 
 import com.ygorsimoes.exceptions.UnsupportedMathOperationException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import static com.ygorsimoes.converters.NumberConverter.convertToDouble;
 import static com.ygorsimoes.converters.NumberConverter.isNumeric;
 
 @RestController
+@RequestMapping("/math")
 public class MathController {
 
     @GetMapping("/sum/{numberOne}/{numberTwo}")
